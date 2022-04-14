@@ -1,0 +1,1024 @@
+{
+	"info": {
+		"_postman_id": "716e11f8-e443-403f-82ff-50511f3c6290",
+		"name": "BSF API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\":\"Sulikowski\",\n    \"lastName\": \"Jakub\",\n    \"email\": \"jakub.sulikowski@bcf-software.com\",\n    \"telephone\": \"2347032325864\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/bsf/employee/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"bsf",
+						"employee",
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Employee",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\":\"Olugbenga\",\n    \"lastName\": \"Falodun\",\n    \"email\": \"falodunosolomon@gmail.com\",\n    \"telephone\": \"2347032769164\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8084/bsfTest/v1/employee/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"bsfTest",
+								"v1",
+								"employee",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 08 Apr 2022 18:30:31 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"firstName\": \"Olugbenga\",\n        \"lastName\": \"Falodun\",\n        \"email\": \"falodunosolomon@gmail.com\",\n        \"telephone\": \"2347032769164\"\n    }\n}"
+				},
+				{
+					"name": "Create Employee",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\":\"Michal\",\n    \"lastName\": \"Chodorowski\",\n    \"email\": \"michal.chodorowski@bcf-software.com\",\n    \"telephone\": \"2347032765864\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/employee/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"employee",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 21:05:17 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"firstName\": \"Michal\",\n        \"lastName\": \"Chodorowski\",\n        \"email\": \"michal.chodorowski@bcf-software.com\",\n        \"telephone\": \"2347032765864\"\n    }\n}"
+				},
+				{
+					"name": "Create Employee",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\":\"Sulikowski\",\n    \"lastName\": \"Jakub\",\n    \"email\": \"jakub.sulikowski@bcf-software.com\",\n    \"telephone\": \"2347032325864\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/employee/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"employee",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 21:06:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"firstName\": \"Sulikowski\",\n        \"lastName\": \"Jakub\",\n        \"email\": \"jakub.sulikowski@bcf-software.com\",\n        \"telephone\": \"2347032325864\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Employee To Level",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"employeeId\": \"3\",\n    \"parentId\": \"2\",\n    \"childId\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/bsf/employee/addLevel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"bsf",
+						"employee",
+						"addLevel"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Employee To Level",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"employeeId\": \"1\",\n    \"parentId\": \"\",\n    \"childId\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8084/bsfTest/v1/employee/addLevel",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"bsfTest",
+								"v1",
+								"employee",
+								"addLevel"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 09 Apr 2022 08:01:59 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"employeeId\": 1,\n        \"parentId\": 0,\n        \"childId\": 0,\n        \"isRoot\": 1\n    }\n}"
+				},
+				{
+					"name": "Add Employee To Level",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"employeeId\": \"3\",\n    \"parentId\": \"2\",\n    \"childId\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/employee/addLevel",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"employee",
+								"addLevel"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 21:07:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"employeeId\": 3,\n        \"parentId\": 2,\n        \"childId\": 0,\n        \"isRoot\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "tokenType",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/bsf/employee/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"bsf",
+						"employee",
+						"4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Employee",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/bsfTest/v1/employee/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"bsfTest",
+								"v1",
+								"employee",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 09 Apr 2022 09:45:03 GMT"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Delete Employee",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/employee/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"employee",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 21:09:10 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Paginated List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/bsfTest/v1/employees?page=0&size=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"bsfTest",
+						"v1",
+						"employees"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Paginated List",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/bsfTest/v1/employees?page=0&size=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"bsfTest",
+								"v1",
+								"employees"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 09 Apr 2022 10:39:33 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"employees\": [\n            {\n                \"createdAt\": \"2022-04-09T08:44:31.000+0000\",\n                \"updatedAt\": \"2022-04-09T08:44:31.000+0000\",\n                \"id\": 1,\n                \"levels\": [],\n                \"firstName\": \"Olugbenga\",\n                \"lastName\": \"Falodun\",\n                \"email\": \"olu.falodun@gmail.com\",\n                \"telephone\": \"2347034523164\"\n            },\n            {\n                \"createdAt\": \"2022-04-09T08:44:57.000+0000\",\n                \"updatedAt\": \"2022-04-09T08:44:57.000+0000\",\n                \"id\": 2,\n                \"levels\": [],\n                \"firstName\": \"John\",\n                \"lastName\": \"Maxwell\",\n                \"email\": \"john.maxwell@gmail.com\",\n                \"telephone\": \"2347034543164\"\n            }\n        ],\n        \"currentPage\": 0,\n        \"totalItems\": 3,\n        \"totalPages\": 2\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "New Access Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"olugbenga@bsf.com\",\r\n    \"password\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/bsf/auth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"bsf",
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Access Token",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"john@test.com\",\r\n    \"password\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/auth/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"auth",
+								"token"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 20:49:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlUktVWG10TFhKMHBBNkxBS29aWko1ZlU0VDhCdmxKdERCb3pXanFFdnhjIn0.eyJleHAiOjE2NDk3MTA0NzUsImlhdCI6MTY0OTcxMDE3NSwianRpIjoiZGI5MWY3ZDEtZTE4NS00YTI0LTg5NjAtYTRiN2EzMzAyODdiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgzL2F1dGgvcmVhbG1zL2JzZiIsInN1YiI6ImE1NDYxNDcwLTMzZWItNGIyZC04MmQ0LWIwNDg0ZTk2YWQ3ZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Im5ld0NsaWVudCIsInNlc3Npb25fc3RhdGUiOiI2NDUxNjU4Ny00YWMzLTQ5NTMtYjI3Mi1iZGNhMzAwODdiYTYiLCJhY3IiOiIxIiwic2NvcGUiOiJwcm9maWxlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiam9obkB0ZXN0LmNvbSJ9.N6u50A0o2vsoooiJZZTkzHG38bv5siepHVHaL2hjL5sZp4xpyJmQQp5NjEZzZ96aROedhhis7Nut5L0O2_3Ze_bwhA_IQ2pN_GknELfeeYrGsDlftUw7CExJdTSBAZZo_fzbYfgDaqwLKkQ6njIUQWyEf3o5-ToEJ8X7vB96v02aqPAvF00Us-NLfWPkrFqoNzHg5QyxgdR2xP1qPSqchry1eyWYmsBQvaPm4czSvp_gcKffyXEdFJWH4HUN1i2_ss51zEOvstJ-4t_uoHrIDJBPZLs9FfDNV2hpUsVWSLLuodRrV6lSrp30KODOjYTKt_JUz-FAG-QWCZAXVjPrAA\",\n    \"expires_in\": 300,\n    \"refresh_expires_in\": 1800,\n    \"token_type\": \"bearer\",\n    \"id_token\": null,\n    \"not-before-policy\": 0,\n    \"session_state\": \"64516587-4ac3-4953-b272-bdca30087ba6\",\n    \"scope\": \"profile\",\n    \"refresh_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwZDkwY2JkNy03MTY0LTQyY2MtODhlMi1kMjE1ZTc5YWU4ZWEifQ.eyJleHAiOjE2NDk3MTE5NzUsImlhdCI6MTY0OTcxMDE3NSwianRpIjoiMTFlMWNmYzEtZjMyYS00ZDM0LWIwOWQtMWMzNGU3YjEzYTk2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgzL2F1dGgvcmVhbG1zL2JzZiIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4My9hdXRoL3JlYWxtcy9ic2YiLCJzdWIiOiJhNTQ2MTQ3MC0zM2ViLTRiMmQtODJkNC1iMDQ4NGU5NmFkN2YiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoibmV3Q2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjY0NTE2NTg3LTRhYzMtNDk1My1iMjcyLWJkY2EzMDA4N2JhNiIsInNjb3BlIjoicHJvZmlsZSJ9.1zTlVvpDgWPzlJPjRALU2rpD21BLJdijz07buX1t76A\"\n}"
+				},
+				{
+					"name": "New Access Token",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"olugbenga@bsf.com\",\r\n    \"password\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/bsf/auth/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"bsf",
+								"auth",
+								"token"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Apr 2022 11:52:25 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlUktVWG10TFhKMHBBNkxBS29aWko1ZlU0VDhCdmxKdERCb3pXanFFdnhjIn0.eyJleHAiOjE2NDk5Mzc0NDUsImlhdCI6MTY0OTkzNzE0NSwianRpIjoiMTY4ODgxNzAtYzM0Zi00ZGUwLTljODgtMmI4NDM1YzYwYmRkIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgzL2F1dGgvcmVhbG1zL2JzZiIsInN1YiI6ImE1NDYxNDcwLTMzZWItNGIyZC04MmQ0LWIwNDg0ZTk2YWQ3ZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Im5ld0NsaWVudCIsInNlc3Npb25fc3RhdGUiOiIzYzExMzFkMi1iMThjLTQwZTctYTE4MS0zY2Y2NzM5ZjM1MDAiLCJhY3IiOiIxIiwic2NvcGUiOiJwcm9maWxlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoib2x1Z2JlbmdhQGJzZi5jb20ifQ.fCifRzYdBb12h9xqijLhHajrdDUSl9qPYk7CxGXJij7BQN_HkXl3OOiCP0NENUX4igaXq1cwjZI0bTyMtTiNGFxFyPnYSj1KsiTEOE6NKYn6_8OAY27zgQSEYGVnfAGRNFgZusVRAf-5w58Cr99tYFISZWgaNBkFgh2gimdfQ_Y8XfB_p5Dgn7vSLAE41baU05I5vJ1fSk5BZvG9g0kxaryHvPsyxnJAq0rwqlR1X4uFFr2Q-AChtPD_GwlT88PX2xYo12Ob5_skhPIf4Yvauy3aQ1FxNi4lwnUz0gMrmCVuPkza-EtrMixIU4r4F6Z5rNoB9xjNFcrNtn0l6a1Zqg\",\n    \"expires_in\": 300,\n    \"refresh_expires_in\": 1800,\n    \"token_type\": \"bearer\",\n    \"id_token\": null,\n    \"not-before-policy\": 0,\n    \"session_state\": \"3c1131d2-b18c-40e7-a181-3cf6739f3500\",\n    \"scope\": \"profile\",\n    \"refresh_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwZDkwY2JkNy03MTY0LTQyY2MtODhlMi1kMjE1ZTc5YWU4ZWEifQ.eyJleHAiOjE2NDk5Mzg5NDUsImlhdCI6MTY0OTkzNzE0NSwianRpIjoiOWVjOGUyNzItZDRhMy00OTJlLTgxZGEtMjAzZjUxN2M4MWRiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgzL2F1dGgvcmVhbG1zL2JzZiIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4My9hdXRoL3JlYWxtcy9ic2YiLCJzdWIiOiJhNTQ2MTQ3MC0zM2ViLTRiMmQtODJkNC1iMDQ4NGU5NmFkN2YiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoibmV3Q2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjNjMTEzMWQyLWIxOGMtNDBlNy1hMTgxLTNjZjY3MzlmMzUwMCIsInNjb3BlIjoicHJvZmlsZSJ9.DomovuoW5NNUC2yiFav27P4CkHE_mmsCiOYyHC4lEmc\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Access Token via Refresh Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwZDkwY2JkNy03MTY0LTQyY2MtODhlMi1kMjE1ZTc5YWU4ZWEifQ.eyJleHAiOjE2NDk4Njk4NDMsImlhdCI6MTY0OTg2ODA0MywianRpIjoiN2NiZjM2M2ItYjM0NC00YTBhLTk4MDctNGRjNjhkNzI5OTc4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgzL2F1dGgvcmVhbG1zL2JzZiIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4My9hdXRoL3JlYWxtcy9ic2YiLCJzdWIiOiJhNTQ2MTQ3MC0zM2ViLTRiMmQtODJkNC1iMDQ4NGU5NmFkN2YiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoibmV3Q2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6Ijc5NmFhNTc3LWJhYzktNDk1YS1hNmJjLWYyZmEyOTQwMzEwOCIsInNjb3BlIjoicHJvZmlsZSJ9.dlZZzN-nvXfFnCMcXw4JdfChwkYIg-qGEK06N-4tKcM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/bsf/auth/token/refresh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"bsf",
+						"auth",
+						"token",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logged In User Details",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "tokenType",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/bsf/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"bsf",
+						"me"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Logged In User Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/bsf/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"bsf",
+								"me"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Apr 2022 19:51:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"message\": \"Successful\",\n    \"data\": {\n        \"password\": \"p4%%w0rd\",\n        \"username\": \"a5461470-33eb-4b2d-82d4-b0484e96ad7f\",\n        \"authorities\": [\n            {\n                \"authority\": \"USER\"\n            }\n        ],\n        \"accountNonExpired\": true,\n        \"accountNonLocked\": true,\n        \"credentialsNonExpired\": true,\n        \"enabled\": true\n    }\n}"
+				}
+			]
+		}
+	]
+}
