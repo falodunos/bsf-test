@@ -28,13 +28,19 @@ Postman Documentation: `https://github.com/falodunos/bsf-test/blob/development/A
 - The Authorization Server:
   - File path on the repository: `https://github.com/falodunos/bsf-test/blob/development/JAR%20FILES/bsf-authorization-server-0.1.0-SNAPSHOT.jar`
   - RUN COMMAND: 
-    - cd `'path to jar file path'`
+    - Package the JAR: Open maven explorer window and double click `package` as shown here:
+      - `https://github.com/falodunos/bsf-test/blob/master/Screen-Shots/package-project.PNG`
+    - Navigate or CD to the JAR directory e.g. `bsf-test\bsf-authorization-server\target`
     - Enter `java -jar bsf-authorization-server-0.1.0-SNAPSHOT.jar` then press enter key on the keyboard
 - The Resource Server
   - File path on the repository: `https://github.com/falodunos/bsf-test/blob/development/JAR%20FILES/bsf-resource-server-1.0.jar`
   - RUN COMMAND: 
-    - `'path to jar file path'`
+    - Package the JAR: Open maven explorer window and double click `package` as shown here:
+      - `https://github.com/falodunos/bsf-test/blob/master/Screen-Shots/package-project.PNG`
+    - Navigate or CD to the JAR directory e.g. `bsf-test\bsf-resource-server\target`
     - Enter `java -jar bsf-resource-server-1.0.jar` and press enter key on the keyboard
+- ALTERNATIVELY: 
+   `Open the main class file of the authorization and resource servers respectively and run the file from there`
 
 ## AVAILABLE ENDPOINTS
 - New Access Token:
@@ -60,3 +66,5 @@ Postman Documentation: `https://github.com/falodunos/bsf-test/blob/development/A
 - Paginated List:
   - URI: `http://localhost:8081/api/bsf/employees?page=0&size=2`
   - DESCRIPTION: `Returns a paginated list of employees`
+
+*NOTE* : For further information, please send email to falodunosolomon@gmail.com
